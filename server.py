@@ -1,4 +1,3 @@
-import tensorflow as tf
 import flask
 import flask.scaffold
 flask.helpers._endpoint_from_view_func = flask.scaffold._endpoint_from_view_func
@@ -6,10 +5,8 @@ import werkzeug
 werkzeug.cached_property = werkzeug.utils.cached_property
 from flask import Flask, request, jsonify, make_response
 from flask_restplus import Api, Resource, fields
-from tensorflow.keras import models
+from keras import models
 import numpy as np
-import imageio
-import os
 from keras.preprocessing import image
 # from flask_mysqldb import MySQL
 import base64
