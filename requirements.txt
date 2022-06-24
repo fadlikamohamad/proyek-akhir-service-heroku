@@ -1,7 +1,7 @@
 Flask==2.0.2
 flask-restplus==0.13.0
 gunicorn==20.1.0
-keras==2.7.0
+keras==2.9.0rc0
 Keras-Preprocessing==1.1.2
 numpy==1.21.4
 Pillow==8.4.0
